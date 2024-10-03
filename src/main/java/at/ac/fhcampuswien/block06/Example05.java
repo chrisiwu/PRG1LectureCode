@@ -28,5 +28,4 @@ public class Example05 {
         System.out.println(reveresed);
         System.out.println(myNumbers);
     }
-
 }

@@ -5,6 +5,7 @@ public class Example01 {
         // assigning and accessing elements
         final int FIRST = 0;
         int[] numbers = new int[3]; // initialise array with length 3
+        String[] strings = new String[5];
 
         numbers[0] = 2; // set value at index 0 to 2
         numbers[1] = numbers[0] + 1; // get value at index 0, add 1 and save result at index 1
