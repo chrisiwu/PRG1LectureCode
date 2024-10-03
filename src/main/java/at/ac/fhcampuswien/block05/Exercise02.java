@@ -1,4 +1,4 @@
-package at.ac.fhcampuswien.block03;
+package at.ac.fhcampuswien.block05;
 
 import java.util.Scanner;
 
