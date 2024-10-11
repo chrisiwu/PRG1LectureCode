@@ -4,9 +4,7 @@ import java.util.Locale;
 import java.util.Scanner;
 
 public class TestPreparation {
-    public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-
+    public static void Example1() {
         // Example 1:
         // Implement a program which calculates the sum of a closed interval, and prints it.
         // Expect the user to write the smaller number first and then the larger number.
@@ -16,6 +14,7 @@ public class TestPreparation {
         // last number: 5
         // The sum is 12.
 
+        Scanner scanner = new Scanner(System.in);
         int sum = 0;
 
         System.out.print("Enter lower bound: ");
@@ -34,7 +33,9 @@ public class TestPreparation {
         }
 
         System.out.println("The sum is " + sum + ".");
+    }
 
+    public static void Example2() {
         // Example 2:
         // Implement a program which calculates the factorial of a number given by the user.
         //
@@ -42,6 +43,7 @@ public class TestPreparation {
         // For example, the factorial of 4 is 24 or 4! = 1 * 2 * 3 * 4 = 24.
         // Additionally, it has been specified that the factorial of 0 is 1, so 0! = 1.
 
+        Scanner scanner = new Scanner(System.in);
         int factorial = 1;
 
         System.out.print("Enter a number to caclulate the factorial: ");
@@ -52,11 +54,15 @@ public class TestPreparation {
         }
 
         System.out.println("The factorial is " + factorial + ".");
+    }
 
+    public static void Example3() {
         // Example 3:
         // Create a function which answers the question "Are you playing banjo?".
         // Read the user input of the name. If the name starts with the letter "R" or lower case "r",
         // you are playing banjo!
+
+        Scanner scanner = new Scanner(System.in);
 
         System.out.print("Enter your name: ");
         String name = scanner.nextLine();
@@ -64,7 +70,9 @@ public class TestPreparation {
         if (name.charAt(0) == 'r' || name.charAt(0) == 'R') {
             System.out.println("You are plaing banjo!");
         }
+    }
 
+    public static void Example4() {
         // Example 4:
         // Implement a function that reads two values from console. First a number for rows and
         // secondly a character from ASCII table (starting point). Afterwards create a matrix that
@@ -77,6 +85,8 @@ public class TestPreparation {
         // aaa
         // bbb
         // ccc
+
+        Scanner scanner = new Scanner(System.in);
 
         System.out.print("Rows: ");
         int rows = scanner.nextInt();
@@ -95,7 +105,9 @@ public class TestPreparation {
                 character++;
             }
         }
+    }
 
+    public static void Example5() {
         // Example 5:
         // Adapt example 4 to print stairs.
         //
@@ -103,6 +115,8 @@ public class TestPreparation {
         // aaa
         // bb
         // c
+
+        Scanner scanner = new Scanner(System.in);
 
         System.out.print("Rows: ");
         int rows = scanner.nextInt();
@@ -121,7 +135,9 @@ public class TestPreparation {
                 character++;
             }
         }
+    }
 
+    public static void Example6() {
         // Example 6:
         // Write a Java program that calculates the average temperature of a given number of days
         // and determines whether the average temperature is below, above, or at room temperature.
@@ -135,6 +151,7 @@ public class TestPreparation {
         // If the average temperature is above 22 degrees, the program should print:
         // "The average temperature is above room temperature."
 
+        Scanner scanner = new Scanner(System.in);
         double degrees;
         double sum = 0;
         double average = 0;
@@ -160,7 +177,9 @@ public class TestPreparation {
         } else {
             System.out.println("The average temperature is exactly at room temperature.");
         }
+    }
 
+    public static void Example7() {
         // Example 7:
         // Given a month as an integer from 1 to 12, return to which quarter of the year
         // it belongs as an integer number.
@@ -169,6 +188,8 @@ public class TestPreparation {
         // month 2 (February) is part of the first quarter
         // month 6 (June) is part of the second quarter
         // month 11 (November) is part of the fourth quarter
+
+        Scanner scanner = new Scanner(System.in);
 
         System.out.print("Enter a month: ");
         int month = scanner.nextInt();
@@ -207,7 +228,9 @@ public class TestPreparation {
             default:
                 System.out.println("Not a month!");
         }
+    }
 
+    public static void Example8() {
         // Example 8:
         // Write a program to play rock, paper, scissors.
         // Read input from users in console.
@@ -216,6 +239,8 @@ public class TestPreparation {
         // "scissors", "paper" -> "Player 1 won!"
         // "scissors", "rock" -> "Player 2 won!"
         // "paper", "paper" -> "Draw!"
+
+        Scanner scanner = new Scanner(System.in);
 
         System.out.print("Player 1: ");
         String player1 = scanner.nextLine();
@@ -231,10 +256,13 @@ public class TestPreparation {
         } else {
             System.out.println("Player 2 wins!");
         }
+    }
 
+    public static void Example9() {
         // Example 9:
         // Add a logic to select a winner after 3 rounds of rock, paper, scissors from example 8
 
+        Scanner scanner = new Scanner(System.in);
         int pointsPlayer1 = 0;
         int pointsPlayer2 = 0;
 
@@ -260,7 +288,9 @@ public class TestPreparation {
         } else {
             System.out.println("Player 2 wins!");
         }
+    }
 
+    public static void Example10() {
         // Example 10:
         // Numbers ending with zeros are boring.
         // Get rid of them. Only the ending ones.
@@ -271,6 +301,8 @@ public class TestPreparation {
         // 1050 -> 105
         // -1050 -> -105
 
+        Scanner scanner = new Scanner(System.in);
+
         System.out.print("Number: ");
         int number = scanner.nextInt();
 
@@ -279,5 +311,18 @@ public class TestPreparation {
         }
 
         System.out.println("The result is: " + number);
+    }
+
+    public static void main(String[] args) {
+        Example1();
+        Example2();
+        Example3();
+        Example4();
+        Example5();
+        Example6();
+        Example7();
+        Example8();
+        Example9();
+        Example10();
     }
 }
