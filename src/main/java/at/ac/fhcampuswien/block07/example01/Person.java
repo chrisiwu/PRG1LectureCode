@@ -1,6 +1,6 @@
 package at.ac.fhcampuswien.block07.example01;
 
-public class Person01 {
+public class Person {
     // properties
     private String name;
     private int age;
@@ -8,7 +8,7 @@ public class Person01 {
     private String comments;
 
     // constructor
-    public Person01(String name, int age) {
+    public Person(String name, int age) {
         this.name = name;
         this.age = age;
         this.comments = "";

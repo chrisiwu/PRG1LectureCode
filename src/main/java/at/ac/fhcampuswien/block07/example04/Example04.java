@@ -2,9 +2,9 @@ package at.ac.fhcampuswien.block07.example04;
 
 public class Example04 {
     public static void main(String[] args) {
-        Person02 ada = new Person02("Ada");
-        Person02 leon = new Person02("Leon");
-        Person02 martin = new Person02("Martin");
+        Person ada = new Person("Ada");
+        Person leon = new Person("Leon");
+        Person martin = new Person("Martin");
 
         ada.printPerson(); // Ada, age 0 years
         leon.printPerson(); // Leon, age 0 years
