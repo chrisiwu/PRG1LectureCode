@@ -16,6 +16,8 @@ public class Person {
         System.out.println(name + ", age: " + age + " years");
     }
 
+//    /* Static indicates that the method does not belong to an object
+//       and thus cannot be used to access any variables that belong to objects */
 //    public static void printPerson() {
 //        System.out.println(name + ", age: " + age + " years");
 //        System.out.println("I am a static method");
