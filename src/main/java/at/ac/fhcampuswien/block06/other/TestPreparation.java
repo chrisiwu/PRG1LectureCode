@@ -1,4 +1,4 @@
-package at.ac.fhcampuswien.block06;
+package at.ac.fhcampuswien.block06.other;
 
 import java.util.Locale;
 import java.util.Scanner;
