@@ -13,11 +13,11 @@ public class Person02 {
 
     // methods
     public void printPerson() {
-        System.out.println(this.name + ", age " + this.age + " years");
+        System.out.println(this.name + ", age: " + this.age + " years");
     }
 
 //    public static void printPerson() {
-//        System.out.println(this.name + ", age " + this.age + " years");
+//        System.out.println(this.name + ", age: " + this.age + " years");
 //        System.out.println("I am a static method");
 //    }
 
