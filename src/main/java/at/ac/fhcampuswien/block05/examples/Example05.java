@@ -1,4 +1,4 @@
-package at.ac.fhcampuswien.block05;
+package at.ac.fhcampuswien.block05.examples;
 
 public class Example05 {
     public static void printNumbers(int min, int max) {

@@ -1,4 +1,4 @@
-package at.ac.fhcampuswien.block05;
+package at.ac.fhcampuswien.block05.examples;
 
 public class Example06 {
     // method overloading
