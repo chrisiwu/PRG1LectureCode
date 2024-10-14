@@ -19,6 +19,7 @@ public class Person {
         System.out.println("My name is " + name + ".");
     }
 
+    // "get" & "set" methods for some properties (no setName!)
     public String getName() {
         return name;
     }
@@ -31,11 +32,11 @@ public class Person {
         this.comments = comments;
     }
 
-    public void increaseAge() {
-        age += 1;
-    }
-
     public double getSalary() {
         return salary;
+    }
+
+    public void increaseAge() {
+        age += 1;
     }
 }
