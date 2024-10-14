@@ -28,7 +28,7 @@ public class Person {
     }
 
     public void setComments(String comments) {
-        comments = comments;
+        this.comments = comments;
     }
 
     public void increaseAge() {
