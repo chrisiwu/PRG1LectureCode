@@ -1,4 +1,4 @@
-package at.ac.fhcampuswien.block08.example01;
+package at.ac.fhcampuswien.block08.examples.example01;
 
 public class Person {
     // properties

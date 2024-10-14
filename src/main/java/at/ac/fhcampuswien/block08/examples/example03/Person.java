@@ -1,26 +1,23 @@
-package at.ac.fhcampuswien.block08.example02;
+package at.ac.fhcampuswien.block08.examples.example03;
 
 public class Person {
     // properties
     private String name;
     private int birthYear;
 
-    // constructor
+    // constructors
     public Person(String name) {
         this.name = name;
         this.birthYear = 1970;
     }
 
+    public Person(String name, int year) {
+        this(name);
+        this.birthYear = year;
+    }
+
     // methods
     public int getBirthYear() {
         return birthYear;
-    }
-
-    public void setBirthYear(int birthYear) {
-        this.birthYear = birthYear;
-    }
-
-    public String toString() {
-        return name + " (" + birthYear + ")";
     }
 }

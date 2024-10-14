@@ -1,4 +1,4 @@
-package at.ac.fhcampuswien.block08.example04;
+package at.ac.fhcampuswien.block08.examples.example04;
 
 public class Example04 {
     public static void main(String[] args) {
