@@ -23,6 +23,6 @@ public class Person02 {
 
     @Override
     public String toString() {
-        return this.name + ", age " + this.age + " years";
+        return this.name + ", age: " + this.age + " years";
     }
 }
