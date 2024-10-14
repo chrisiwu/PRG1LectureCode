@@ -13,16 +13,16 @@ public class Person {
 
     // methods
     public void printPerson() {
-        System.out.println(this.name + ", age: " + this.age + " years");
+        System.out.println(name + ", age: " + age + " years");
     }
 
 //    public static void printPerson() {
-//        System.out.println(this.name + ", age: " + this.age + " years");
+//        System.out.println(name + ", age: " + age + " years");
 //        System.out.println("I am a static method");
 //    }
 
     @Override
     public String toString() {
-        return this.name + ", age: " + this.age + " years";
+        return name + ", age: " + age + " years";
     }
 }

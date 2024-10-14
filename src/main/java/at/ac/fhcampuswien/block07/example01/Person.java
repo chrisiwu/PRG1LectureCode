@@ -16,7 +16,7 @@ public class Person {
 
     // methods
     public void sayName() {
-        System.out.println("My name is " + this.name + ".");
+        System.out.println("My name is " + name + ".");
     }
 
     public String getName() {
@@ -28,7 +28,7 @@ public class Person {
     }
 
     public void setComments(String comments) {
-        this.comments = comments;
+        comments = comments;
     }
 
     public void increaseAge() {
