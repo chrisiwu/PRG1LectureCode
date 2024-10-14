@@ -1,4 +1,4 @@
-package at.ac.fhcampuswien.block07.example03;
+package at.ac.fhcampuswien.block07.examples.example03;
 
 import java.util.StringTokenizer;
 

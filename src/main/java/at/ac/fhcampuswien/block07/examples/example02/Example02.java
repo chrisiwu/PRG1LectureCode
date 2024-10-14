@@ -1,4 +1,4 @@
-package at.ac.fhcampuswien.block07.example02;
+package at.ac.fhcampuswien.block07.examples.example02;
 
 import java.util.Random;
 
