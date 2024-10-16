@@ -4,13 +4,15 @@ public class Person {
     // properties
     private String name;
     private int age;
+    private int id;
+    private static int count = 0; // count the number of person objects
 
     // constructor
     /* Constructors are used to set an initial state
          for an object when it is created.
        The name of the constructor
          is always the same as the class name.
-       Constructor is called when object
+       The constructor is called when object
          is instantiated with the new keyword .
 
        If a programmer does not define a constructor,
@@ -22,11 +24,16 @@ public class Person {
         // instance variables are referred to with this
         this.name = name;
         this.age = 0;
+        this.id = ++count;
     }
 
     // methods
+    public int getId() {
+        return this.id;
+    }
+
     public void printPerson() {
-        System.out.println(name + ", age: " + age + " years");
+        System.out.println(this.name + " (" + id + "), age: " + this.age + " years");
     }
 
 //    /* Static indicates that the method does not belong to an object
@@ -45,6 +52,6 @@ public class Person {
          (eg.: Person@12jdh234) */
     @Override
     public String toString() {
-        return name + ", age: " + age + " years";
+        return this.name + " (" + id + "), age: " + this.age + " years";
     }
 }

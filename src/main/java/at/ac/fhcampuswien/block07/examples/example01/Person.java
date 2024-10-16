@@ -6,6 +6,7 @@ public class Person {
     private int age;
     private double salary;
     private String comments;
+    private double TAX;
 
     // constructor
     public Person(String name, int age) {
@@ -16,27 +17,29 @@ public class Person {
 
     // methods
     public void sayName() {
-        System.out.println("My name is " + name + ".");
+        System.out.println("My name is " + this.name + ".");
     }
 
     // "get" & "set" methods for some properties (no setName!)
     public String getName() {
-        return name;
+        return this.name;
     }
 
     public String getComments() {
-        return comments;
+        return this.comments;
     }
 
     public void setComments(String comments) {
         this.comments = comments;
     }
 
-    public double getSalary() {
-        return salary;
+    public double getNetSalary() {
+        double netSalary; // variables which are not properties or characteristics have to be declared locally
+        netSalary = this.salary - TAX;
+        return netSalary;
     }
 
     public void increaseAge() {
-        age += 1;
+        this.age += 1;
     }
 }
