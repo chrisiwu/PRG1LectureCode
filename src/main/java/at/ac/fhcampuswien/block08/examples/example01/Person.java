@@ -32,15 +32,15 @@ public class Person {
     // methods
     // methods can be overloaded like constructors
     public void growOlder() {
-        age += 1;
+        this.age += 1;
     }
 
     public void growOlder(int years) {
-        age += years;
+        this.age += years;
     }
 
     @Override
     public String toString() {
-        return name + ", age: " + age + " years";
+        return this.name + ", age: " + this.age + " years";
     }
 }

@@ -4,7 +4,6 @@ public class Person02 {
     // properties
     private String name;
     private SimpleDate birthday;
-    private int age;
 
     // constructors
     public Person02(String name, int day, int month, int year) {
@@ -20,9 +19,18 @@ public class Person02 {
     // methods
     @Override
     public String toString() {
-        return name + " (" + birthday.toString() + ")";
+        return this.name + " (" + this.birthday.toString() + ")";
     }
 
+    /* The equals method is meant to compare the contents of
+         two objects to determine if they are logically equivalent.
+       equals ist similar to the method toString.
+       Default implementation compares the equality
+         of the references (like ==).
+       If we want to compare objects of our own design,
+         we need to override equals in the class.
+       It returns a boolean type value which indicates
+         whether the objects are equal. */
     @Override
     public boolean equals(Object compared) {
         if (this == compared) { // if the variables are located in the same position, they are equal

@@ -18,6 +18,6 @@ public class Person {
 
     // methods
     public int getBirthYear() {
-        return birthYear;
+        return this.birthYear;
     }
 }

@@ -13,7 +13,7 @@ public class Person {
 
     // methods
     public int getBirthYear() {
-        return birthYear;
+        return this.birthYear;
     }
 
     public void setBirthYear(int birthYear) {
@@ -21,6 +21,6 @@ public class Person {
     }
 
     public String toString() {
-        return name + " (" + birthYear + ")";
+        return this.name + " (" + this.birthYear + ")";
     }
 }

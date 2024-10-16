@@ -21,6 +21,13 @@ public class Example06 {
                the values from one object to another. */
         Person fourth = new Person(first);
 
+        System.out.println(first == first); // true
+        System.out.println(first == second); // true
+        System.out.println(first == third); // false
+        System.out.println(first == fourth); // false
+        System.out.println(first.equals(fourth)); // true
+        System.out.println();
+
         System.out.println(first);
         System.out.println(second);
         System.out.println(third);

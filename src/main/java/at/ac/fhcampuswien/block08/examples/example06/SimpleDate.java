@@ -15,15 +15,15 @@ public class SimpleDate {
 
     // methods
     public int getDay() {
-        return day;
+        return this.day;
     }
 
     public int getMonth() {
-        return month;
+        return this.month;
     }
 
     public int getYear() {
-        return year;
+        return this.year;
     }
 
     public void setDay(int day) {
@@ -40,6 +40,6 @@ public class SimpleDate {
 
     @Override
     public String toString() {
-        return day + "." + month + "." + year;
+        return this.day + "." + this.month + "." + this.year;
     }
 }

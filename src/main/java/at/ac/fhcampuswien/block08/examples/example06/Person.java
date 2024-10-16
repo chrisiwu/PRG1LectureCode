@@ -3,8 +3,7 @@ package at.ac.fhcampuswien.block08.examples.example06;
 public class Person implements Cloneable {
     // properties
     private String name;
-    SimpleDate birthday;
-    private int age;
+    private SimpleDate birthday;
 
     // constructors
     public Person(String name, int day, int month, int year) {
@@ -27,7 +26,31 @@ public class Person implements Cloneable {
 
     @Override
     public String toString() {
-        return name + " (" + birthday.toString() + ")";
+        return this.name + " (" + this.birthday.toString() + ")";
+    }
+
+    @Override
+    public boolean equals(Object compared) {
+        if (this == compared) { // if the variables are located in the same position, they are equal
+            return true;
+        }
+
+        if (!(compared instanceof Person)) { // if the type of the compared object is not Person, the objects are not equal
+            return false;
+        }
+
+        // convert the Object type compared object into Person object
+        Person comparedPerson = (Person) compared;
+
+        // if the values of the object variables are the same, the objects are equal
+        if (this.name.equals(comparedPerson.name) &&
+                this.birthday.getDay() == comparedPerson.birthday.getDay() &&
+                this.birthday.getMonth() == comparedPerson.birthday.getMonth() &&
+                this.birthday.getYear() == comparedPerson.birthday.getYear()) {
+            return true;
+        }
+
+        return false;
     }
 
     @Override

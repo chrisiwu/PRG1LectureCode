@@ -4,7 +4,6 @@ public class Person01 {
     // properties
     private String name;
     private SimpleDate birthday;
-    private int age;
 
     // constructors
     public Person01(String name, int day, int month, int year) {
@@ -20,6 +19,6 @@ public class Person01 {
     // methods
     @Override
     public String toString() {
-        return name + " (" + birthday.toString() + ")";
+        return this.name + " (" + this.birthday.toString() + ")";
     }
 }
