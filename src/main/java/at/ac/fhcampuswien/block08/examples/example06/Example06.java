@@ -24,6 +24,7 @@ public class Example06 {
         System.out.println(first == first); // true
         System.out.println(first == second); // true
         System.out.println(first == third); // false
+        System.out.println(first.equals(third)); // true
         System.out.println(first == fourth); // false
         System.out.println(first.equals(fourth)); // true
         System.out.println();
