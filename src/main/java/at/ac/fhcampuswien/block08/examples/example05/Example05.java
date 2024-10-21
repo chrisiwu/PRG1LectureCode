@@ -10,8 +10,10 @@ public class Example05 {
            With reference variables, such comparisons would
              examine the equality of the memory references. */
         System.out.println(ada1 == ada2); // false
+        System.out.println(ada1.equals(ada2)); // false
         ada2 = ada1;
         System.out.println(ada1 == ada2); // true
+        System.out.println(ada1.equals(ada2)); // true
 
         // after overriding the equals method:
         Person02 ada3 = new Person02("Ada Lovelace", new SimpleDate(10, 12, 1815));
