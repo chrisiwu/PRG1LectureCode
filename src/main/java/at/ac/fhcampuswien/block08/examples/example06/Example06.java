@@ -43,5 +43,15 @@ public class Example06 {
         System.out.println(second);
         System.out.println(third);
         System.out.println(fourth);
+        System.out.println();
+
+        second.setName("Second");
+        third.setName("Third");
+        fourth.setName("Fourth");
+
+        System.out.println(first);
+        System.out.println(second);
+        System.out.println(third);
+        System.out.println(fourth);
     }
 }
