@@ -16,7 +16,7 @@ public class Person {
          it is possible to call the constructor from
          within another constructor with this keyword. */
     public Person(String name) {
-        this(name, 0); // here the code of the second constructor is run, and the age is set to
+        this(name, 0); // here the code of the second constructor is run, and the age is set to 0
     }
 
 //    public Person(String name) {
