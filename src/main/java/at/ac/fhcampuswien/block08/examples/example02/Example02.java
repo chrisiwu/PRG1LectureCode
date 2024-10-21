@@ -11,15 +11,15 @@ public class Example02 {
         Person first = new Person("First");
 
         System.out.println(first);  // First (1970)
-        youthen(first);
+        growOlder(first);
         System.out.println(first);  // First (1971)
 
         Person second = first;
-        youthen(second);
+        growOlder(second);
         System.out.println(first);  // First (1972)
     }
 
-    public static void youthen(Person person) {
+    public static void growOlder(Person person) {
         person.setBirthYear(person.getBirthYear() + 1);
     }
 }
