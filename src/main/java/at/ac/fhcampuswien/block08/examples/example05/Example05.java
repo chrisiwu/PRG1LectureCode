@@ -19,6 +19,7 @@ public class Example05 {
         Person02 ada3 = new Person02("Ada Lovelace", new SimpleDate(10, 12, 1815));
         Person02 ada4 = new Person02("Ada Lovelace", new SimpleDate(10, 12, 1815));
 
+        System.out.println(ada3 == ada4); // false
         System.out.println(ada3.equals(ada4)); // true
     }
 }
