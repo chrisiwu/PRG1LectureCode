@@ -13,8 +13,8 @@ public class Person implements Cloneable {
 
     /* A copy constructor takes another object and
          copies its fields to create a new instance. */
-    public Person(Person p1) {
-        this(p1.name, p1.birthday.getDay(), p1.birthday.getMonth(), p1.birthday.getYear());
+    public Person(Person person) {
+        this(person.name, person.birthday.getDay(), person.birthday.getMonth(), person.birthday.getYear());
     }
 
     // methods
