@@ -4,6 +4,7 @@ public class Example04 {
     public static void main(String[] args) {
         SimpleDate date = new SimpleDate(10, 12, 1815);
 
+        // objects may contain references to objects
         Person ada = new Person("Ada Lovelace", date);
         Person pascal = new Person("Blaise Pascal", 19, 6, 1623);
 
