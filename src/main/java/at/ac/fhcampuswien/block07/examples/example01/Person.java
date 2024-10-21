@@ -6,7 +6,7 @@ public class Person {
     private int age;
     private double salary;
     private String comments;
-    private double TAX;
+    private final double TAX = 10;
 
     // constructor
     public Person(String name, int age) {
@@ -41,5 +41,9 @@ public class Person {
 
     public void increaseAge() {
         this.age += 1;
+    }
+
+    public int getAge() {
+        return this.age;
     }
 }

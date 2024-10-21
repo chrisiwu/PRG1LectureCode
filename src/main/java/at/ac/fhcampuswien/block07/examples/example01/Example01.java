@@ -12,7 +12,11 @@ public class Example01 {
 
         // call of methods on objects
         student.sayName();
+        System.out.println(friend.getAge());
         friend.increaseAge();
+        System.out.println(friend.getAge());
+        System.out.println(student.getComments());
         student.setComments("Good student.");
+        System.out.println(student.getComments());
     }
 }
