@@ -2,6 +2,10 @@ package at.ac.fhcampuswien.block08.examples.example03;
 
 public class Example03 {
     public static void main(String[] args) {
+        /* Calling new causes:
+           - space is reserved for storing object values
+           - default/initial values are set
+           - constructor is called */
         Person leon = new Person("leon", 1992);
         Person ada = leon;
 
