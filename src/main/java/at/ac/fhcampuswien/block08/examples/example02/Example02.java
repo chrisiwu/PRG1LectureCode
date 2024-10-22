@@ -14,7 +14,7 @@ public class Example02 {
         growOlder(first);
         System.out.println(first);  // First (1971)
 
-        /* Assigning a value with „=„ copies the value.
+        /* Assigning a value with "=" copies the value.
            With reference values only the reference is copied. */
         Person second = first;
         growOlder(second);
