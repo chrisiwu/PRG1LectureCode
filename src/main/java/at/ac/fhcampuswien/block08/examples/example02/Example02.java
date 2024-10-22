@@ -4,7 +4,7 @@ public class Example02 {
     public static void main(String[] args) {
         /* Variables are classified into primitive
              and reference variables.
-           Primitive variable‘s information is stored as
+           Primitive variable's information is stored as
              the value of that variable.
            Reference variables hold a reference
              to information related to that variable. */
