@@ -6,5 +6,8 @@ public class Example01 {
         taxi.accelerate();
 //        taxi.setOnDuty(true); // DOES NOT WORK!
         System.out.println(taxi);
+
+        Object sportsCar = new SportsCar(200);
+        System.out.println(sportsCar);
     }
 }
