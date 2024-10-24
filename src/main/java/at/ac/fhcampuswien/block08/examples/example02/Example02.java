@@ -11,17 +11,17 @@ public class Example02 {
         Person first = new Person("First");
 
         System.out.println(first);  // First (1970)
-        growOlder(first);
+        youthen(first);
         System.out.println(first);  // First (1971)
 
         /* Assigning a value with "=" copies the value.
            With reference values only the reference is copied. */
         Person second = first;
-        growOlder(second);
+        youthen(second);
         System.out.println(first);  // First (1972)
     }
 
-    public static void growOlder(Person person) {
+    public static void youthen(Person person) {
         person.setBirthYear(person.getBirthYear() + 1);
     }
 }
