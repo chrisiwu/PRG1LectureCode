@@ -1,5 +1,7 @@
 package at.ac.fhcampuswien.block10.example01;
 
+import java.util.Random;
+
 public class Example01 {
     public static void main(String[] args) {
         /* an interface gives also an additional type to a class
@@ -25,5 +27,22 @@ public class Example01 {
          */
         Printer.printLegs(myPet);
         Printer.printLegs(mySecondPet);
+
+        AnimalBehaviour newPet = getMyNextPet();
+        Printer.printLegs(newPet);
+    }
+
+    public static AnimalBehaviour getMyNextPet() {
+        Random ticket = new Random();
+        // generate random number between 1 and 3
+        int number = ticket.nextInt(3);
+
+        if (number == 1) {
+            return new Lion();
+        } else if (number == 2) {
+            return new Bird();
+        } else {
+            return new Dog();
+        }
     }
 }
