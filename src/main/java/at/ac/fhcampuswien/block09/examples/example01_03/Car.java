@@ -1,12 +1,13 @@
 package at.ac.fhcampuswien.block09.examples.example01_03;
 
 public class Car {
-    int speed = 10;
+    protected int speed = 10;
 
     public Car(int speed) {
         this.speed = speed;
     }
 
+    // base behaviour
     public void accelerate() {
         this.speed += 10;
     }

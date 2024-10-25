@@ -5,6 +5,7 @@ public class Example03 {
         Car car = new Car(5);
         Car sportsCar = new SportsCar(5);
 
+        // instanceof keyword
         System.out.println(car instanceof Object); // true
         System.out.println(car instanceof Car); // true
         System.out.println(car instanceof SportsCar); // false
