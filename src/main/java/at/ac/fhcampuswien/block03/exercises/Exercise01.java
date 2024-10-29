@@ -1,4 +1,4 @@
-package at.ac.fhcampuswien.block03.exercise;
+package at.ac.fhcampuswien.block03.exercises;
 
 import java.util.Scanner;
 
