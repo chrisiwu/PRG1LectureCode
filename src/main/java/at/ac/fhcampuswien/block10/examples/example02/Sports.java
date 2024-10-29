@@ -1,4 +1,4 @@
-package at.ac.fhcampuswien.block10.example02;
+package at.ac.fhcampuswien.block10.examples.example02;
 
 public interface Sports {
     public void setHomeTeam(String name);

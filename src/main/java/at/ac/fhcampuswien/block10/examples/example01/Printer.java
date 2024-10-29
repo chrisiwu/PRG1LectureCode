@@ -1,4 +1,4 @@
-package at.ac.fhcampuswien.block10.example01;
+package at.ac.fhcampuswien.block10.examples.example01;
 
 public class Printer {
     public static void printLegs(AnimalBehaviour animal) {

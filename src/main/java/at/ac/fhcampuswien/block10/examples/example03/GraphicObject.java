@@ -1,4 +1,4 @@
-package at.ac.fhcampuswien.block10.example03;
+package at.ac.fhcampuswien.block10.examples.example03;
 
 abstract class GraphicObject implements Paintable {
     int x, y;

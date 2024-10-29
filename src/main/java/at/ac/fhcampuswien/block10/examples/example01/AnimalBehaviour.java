@@ -1,4 +1,4 @@
-package at.ac.fhcampuswien.block10.example01;
+package at.ac.fhcampuswien.block10.examples.example01;
 
 /* describes a contract between the
      client and the implementation
@@ -14,15 +14,8 @@ package at.ac.fhcampuswien.block10.example01;
      of the methods
    a visibility attribute on interfaces is not
      marked explicitly as they're always public */
+public interface AnimalBehaviour {
+    void eat();
 
-// a container holding values of type int
-public interface Container {
-    // add element to the container
-    void add(int elem);
-
-    // is element in the container?
-    boolean element(int elem);
-
-    // is the container empty?
-    boolean empty();
+    int noOfLegs();
 }

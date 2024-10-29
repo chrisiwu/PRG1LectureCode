@@ -1,4 +1,4 @@
-package at.ac.fhcampuswien.block10.example01;
+package at.ac.fhcampuswien.block10.examples.example01;
 
 // class implements interface
 public class Bird implements AnimalBehaviour {
