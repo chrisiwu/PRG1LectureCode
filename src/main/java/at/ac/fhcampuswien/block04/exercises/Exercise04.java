@@ -7,7 +7,7 @@ public class Exercise04 {
         Scanner scan = new Scanner(System.in);
         int sum = 0;
 
-        while (true) { // endless loop
+        do {
             System.out.print("Enter a number (enter 0 or negative value to exit): ");
             int number = scan.nextInt();
 
@@ -16,7 +16,7 @@ public class Exercise04 {
             } else {
                 sum = sum + number;
             }
-        }
+        } while (true); // endless loop
 
         System.out.println("The sum is " + sum + ".");
     }
