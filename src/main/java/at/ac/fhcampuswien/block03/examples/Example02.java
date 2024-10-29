@@ -1,6 +1,6 @@
 package at.ac.fhcampuswien.block03.examples;
 
-public class example02 {
+public class Example02 {
     public static void main(String[] args) {
         int taxRate = 20;
 

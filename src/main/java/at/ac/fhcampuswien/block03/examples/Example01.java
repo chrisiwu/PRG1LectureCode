@@ -1,6 +1,6 @@
 package at.ac.fhcampuswien.block03.examples;
 
-public class example01 {
+public class Example01 {
     public static void main(String[] args) {
         /* variable:
            - symbol to identify a memory area

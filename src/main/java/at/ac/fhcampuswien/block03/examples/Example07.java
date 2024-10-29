@@ -2,7 +2,7 @@ package at.ac.fhcampuswien.block03.examples;
 
 import java.util.Scanner;
 
-public class example13 {
+public class Example07 {
     public static void main(String[] args) {
         /* strings cannot be compared using ==
            comparison is affected by how much

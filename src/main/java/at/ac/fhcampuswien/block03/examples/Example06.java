@@ -2,7 +2,7 @@ package at.ac.fhcampuswien.block03.examples;
 
 import java.util.Scanner;
 
-public class example12 {
+public class Example06 {
     public static void main(String[] args) {
         /* modulo operator is very handy when we want
              to check the divisibility of a number */

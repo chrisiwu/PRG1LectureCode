@@ -1,6 +1,6 @@
 package at.ac.fhcampuswien.block03.examples;
 
-public class example04 {
+public class Example04 {
     // 1. block
     public static void main(String[] args) {
         // 2. block

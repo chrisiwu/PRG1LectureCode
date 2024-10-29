@@ -2,7 +2,7 @@ package at.ac.fhcampuswien.block03.examples;
 
 import java.util.Scanner;
 
-public class example03 {
+public class Example03 {
     public static void main(String[] args) {
         // variables must be declared in advance!
         String userName;

@@ -1,6 +1,6 @@
-package at.ac.fhcampuswien.block03.examples;
+package at.ac.fhcampuswien.block03.exercises;
 
-public class example07 {
+public class Exercise05 {
     public static void main(String[] args) {
         int x = 10;
         int y = 5;

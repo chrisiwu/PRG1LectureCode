@@ -1,6 +1,6 @@
 package at.ac.fhcampuswien.block03.examples;
 
-public class example05 {
+public class Example05 {
     public static void main(String[] args) {
         // var detects automatically the datatype of a variable
         var variable = "Variable x";
