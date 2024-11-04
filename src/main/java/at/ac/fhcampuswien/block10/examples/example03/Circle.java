@@ -8,4 +8,12 @@ public class Circle extends GraphicObject {
     @Override
     void resize() {
     }
+
+    @Override
+    public void fill() {
+    }
+
+    @Override
+    public void stroke() {
+    }
 }

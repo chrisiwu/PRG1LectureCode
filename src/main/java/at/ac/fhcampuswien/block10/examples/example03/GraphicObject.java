@@ -1,6 +1,6 @@
 package at.ac.fhcampuswien.block10.examples.example03;
 
-abstract class GraphicObject implements Paintable {
+public abstract class GraphicObject implements Paintable {
     int x, y;
 
     void moveTo(int newX, int newY) {
@@ -9,10 +9,4 @@ abstract class GraphicObject implements Paintable {
     abstract void draw();
 
     abstract void resize();
-
-    public void fill() {
-    }
-
-    public void stroke() {
-    }
 }
