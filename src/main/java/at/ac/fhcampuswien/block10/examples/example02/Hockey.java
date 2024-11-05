@@ -6,11 +6,11 @@ package at.ac.fhcampuswien.block10.examples.example02;
      implement the methods of the base interface
      and the methods of the extended interface */
 public interface Hockey extends Sports, Event {
-    public void homeGoalScored();
+    void homeGoalScored();
 
-    public void visitingGoalScored();
+    void visitingGoalScored();
 
-    public void endOfPeriod(int period);
+    void endOfPeriod(int period);
 
-    public void overtimePeriod(int ot);
+    void overtimePeriod(int ot);
 }
