@@ -15,10 +15,10 @@ package at.ac.fhcampuswien.block10.examples.example03;
 public abstract class GraphicObject implements Paintable {
     int x, y;
 
-    void moveTo(int newX, int newY) {
+    public void moveTo(int newX, int newY) {
     }
 
-    abstract void draw();
+    public abstract void draw();
 
-    abstract void resize();
+    public abstract void resize();
 }
