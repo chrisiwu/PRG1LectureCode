@@ -1,6 +1,6 @@
 package at.ac.fhcampuswien.block11.examples;
 
-public class Example01 {
+public class Example02 {
     // any given object can be represented as Object type
     String text1 = "text";
     Object textString1 = "another string";
