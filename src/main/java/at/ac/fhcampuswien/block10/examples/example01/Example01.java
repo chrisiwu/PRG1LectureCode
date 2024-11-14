@@ -30,6 +30,10 @@ public class Example01 {
 
         AnimalBehaviour newPet = getMyNextPet();
         Printer.printLegs(newPet);
+
+        myPet.eat();
+        mySecondPet.eat();
+        newPet.eat();
     }
 
     public static AnimalBehaviour getMyNextPet() {
