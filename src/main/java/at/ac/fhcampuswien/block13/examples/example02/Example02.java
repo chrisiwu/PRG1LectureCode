@@ -1,18 +1,29 @@
 package at.ac.fhcampuswien.block13.examples.example02;
 
-import java.util.HashMap;
+import java.util.HashSet;
+import java.util.Set;
 
 public class Example02 {
+    /* Set Interface:
+         - unordered collection
+         - stores only unique objects (no duplications) */
     public static void main(String[] args) {
-        HashMap<String, String> numbers = new HashMap<>();
-        numbers.put("One", "Uno");
-        numbers.put("Two", "Dos");
+        Set<String> fruits = new HashSet<>();
 
-        String translation = numbers.get("One");
-        System.out.println(translation); // Uno
+        fruits.add("Apple");
+        fruits.add("Banana");
+        fruits.add("Orange");
+        fruits.add("Apple"); // duplicates are ignored
 
-        System.out.println(numbers.get("Two")); // Dos
-        System.out.println(numbers.get("Three")); // null
-        System.out.println(numbers.get("Uno")); // null
+        System.out.println("Fruits set: " + fruits);
+
+        if (fruits.contains("Banana")) {
+            System.out.println("Banana is in the set.");
+        }
+
+        fruits.remove("Orange");
+        System.out.println("Fruits set after removal: " + fruits);
+
+        System.out.println("Set size: " + fruits.size());
     }
 }

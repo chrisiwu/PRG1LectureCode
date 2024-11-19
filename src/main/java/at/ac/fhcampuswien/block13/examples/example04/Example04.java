@@ -1,25 +1,19 @@
 package at.ac.fhcampuswien.block13.examples.example04;
 
 import java.util.ArrayList;
-import java.util.Collections;
-import java.util.List;
 
 public class Example04 {
     public static void main(String[] args) {
-        List<Member> members = new ArrayList<>();
-        members.add(new Member("Ada Lovelace", 160));
-        members.add(new Member("Yao Ming", 229));
-        members.add(new Member("Bart Simpson", 122));
+        ArrayList<Person> persons = new ArrayList<>();
 
-        for (Member m : members) {
-            System.out.println(m);
-        }
+        Person john = new Person("John", 10, 12, 1992);
+        persons.add(john);
 
-        System.out.println("Sorted list:");
-        Collections.sort(members); // Collections.reverseOrder()
+        persons.add(new Person("Matthew", 2, 7, 1987));
+        persons.add(new Person("Martin", 23, 10, 2003));
 
-        for (Member m : members) {
-            System.out.println(m);
+        for (Person person : persons) {
+            System.out.println(person);
         }
     }
 }

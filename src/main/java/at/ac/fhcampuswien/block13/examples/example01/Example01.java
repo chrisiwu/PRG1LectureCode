@@ -5,6 +5,12 @@ import java.util.List;
 
 public class Example01 {
     public static void main(String[] args) {
+        /* List Interface:
+             - elements are ordered like a sequence
+             - access via index
+           ArrayList:
+             - implements List interface
+             - dynamic arrays - resizable */
         List<Integer> numbers = new ArrayList<>();
         numbers.add(1);
 

@@ -1,19 +1,22 @@
 package at.ac.fhcampuswien.block13.examples.example03;
 
-import java.util.ArrayList;
+import java.util.HashMap;
 
 public class Example03 {
+    /* Map:
+         - key-value pairs for mapping data
+         - access via keys
+         - no duplicate keys allowed! */
     public static void main(String[] args) {
-        ArrayList<Person> persons = new ArrayList<>();
+        HashMap<String, String> numbers = new HashMap<>();
+        numbers.put("One", "Uno");
+        numbers.put("Two", "Dos");
 
-        Person john = new Person("John", 10, 12, 1992);
-        persons.add(john);
+        String translation = numbers.get("One");
+        System.out.println(translation); // Uno
 
-        persons.add(new Person("Matthew", 2, 7, 1987));
-        persons.add(new Person("Martin", 23, 10, 2003));
-
-        for (Person person : persons) {
-            System.out.println(person);
-        }
+        System.out.println(numbers.get("Two")); // Dos
+        System.out.println(numbers.get("Three")); // null
+        System.out.println(numbers.get("Uno")); // null
     }
 }

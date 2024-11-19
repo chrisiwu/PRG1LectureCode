@@ -1,4 +1,4 @@
-package at.ac.fhcampuswien.block13.examples.example04;
+package at.ac.fhcampuswien.block13.examples.example05;
 
 public class Member implements Comparable<Member> {
     private String name;

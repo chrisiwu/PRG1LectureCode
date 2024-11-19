@@ -1,4 +1,4 @@
-package at.ac.fhcampuswien.block13.examples.example03;
+package at.ac.fhcampuswien.block13.examples.example04;
 
 public class SimpleDate {
     // properties
