@@ -18,6 +18,16 @@ public class Member implements Comparable<Member> {
         return name + " (" + height + ")";
     }
 
+    /* The compareTo method is used to compare objects.
+       If a class implements the Comparable interface,
+         objects created from that class can be sorted
+         using Java's sorting algorithms.
+       compareTo method has the object to which this
+         object is compared and returns an integer:
+         - negative integer: this comes before the object received
+         - positive integer: this comes after the object received
+         - 0: otherwise
+       Natural ordering */
     @Override
     public int compareTo(Member member) {
         return this.height - member.getHeight();

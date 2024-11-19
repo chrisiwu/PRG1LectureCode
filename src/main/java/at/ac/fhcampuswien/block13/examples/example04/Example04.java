@@ -4,6 +4,8 @@ import java.util.ArrayList;
 
 public class Example04 {
     public static void main(String[] args) {
+        /* If collection is made out of objects (reference types),
+             the collection only stores the references to the objects. */
         ArrayList<Person> persons = new ArrayList<>();
 
         Person john = new Person("John", 10, 12, 1992);
