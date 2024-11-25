@@ -1,4 +1,4 @@
-package at.ac.fhcampuswien.block11.examples;
+package at.ac.fhcampuswien.block11.examples.example02;
 
 public class Example02 {
     // any given object can be represented as Object type
