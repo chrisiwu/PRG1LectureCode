@@ -1,4 +1,4 @@
-package at.ac.fhcampuswien.block12.examples;
+package at.ac.fhcampuswien.block12.examples.example01;
 
 import java.util.ArrayList;
 import java.util.Iterator;

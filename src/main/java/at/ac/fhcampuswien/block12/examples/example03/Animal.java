@@ -1,12 +1,12 @@
-package at.ac.fhcampuswien.block12.examples;
+package at.ac.fhcampuswien.block12.examples.example03;
 
-public class Example03<T> {
+public class Animal<T> {
     private T myAnimal; // ok
     private T[] myZoo; // ok
 
     /* You cannot create objects or arrays
          of a parameterised type! */
-//    public Example03() {
+//    public Animal() {
 //        myAnimal = new T(); // error
 //        myZoo = new T[10]; // error
 //    }
@@ -17,8 +17,8 @@ public class Example03<T> {
          and cast them to the parameterised type.
        This creates a warning,
          since it is not type-safe. */
-    @SuppressWarnings("unchecked")
-    public Example03(T param) {
+//    @SuppressWarnings("unchecked")
+    public Animal(T param) {
         myAnimal = param; // ok
         myZoo = (T[]) new Object[10]; // ok
     }
