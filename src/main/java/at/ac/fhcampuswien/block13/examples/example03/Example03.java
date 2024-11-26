@@ -10,7 +10,8 @@ public class Example03 {
     public static void main(String[] args) {
         HashMap<String, String> numbers = new HashMap<>();
         numbers.put("One", "Uno");
-        numbers.put("Two", "Dos");
+        numbers.put("Two", "Zwei");
+        numbers.put("Two", "Dos"); // overwrites value of given key
 
         String translation = numbers.get("One");
         System.out.println(translation); // Uno
