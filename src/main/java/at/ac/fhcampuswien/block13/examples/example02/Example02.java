@@ -21,6 +21,8 @@ public class Example02 {
             System.out.println("Banana is in the set.");
         }
 
+        System.out.println(fruits.remove("Banana"));
+
         fruits.remove("Orange");
         System.out.println("Fruits set after removal: " + fruits);
 

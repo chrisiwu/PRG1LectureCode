@@ -17,6 +17,7 @@ public class Example01 {
         List<String> strings = new ArrayList<>();
         strings.add("String is a reference-type variable.");
         strings.add("Hello World!");
+//        strings.add(1);
 
         System.out.println(strings.get(1)); // Hello World!
         System.out.println(strings.contains("Hello World!")); // true
