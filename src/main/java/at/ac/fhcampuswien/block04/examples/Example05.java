@@ -5,6 +5,7 @@ public class Example05 {
         /* do-while loop:
            repeats the statement 1 or many times (at least 1 time) */
         int i = 0;
+
         do {
             System.out.println("*");
             i++; // same as i = i + 1

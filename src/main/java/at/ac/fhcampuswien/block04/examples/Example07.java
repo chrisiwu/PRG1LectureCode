@@ -8,6 +8,7 @@ public class Example07 {
             for (int j = 0; j < i; j++) { // inner loop for stars in a line
                 System.out.print("*");
             }
+
             System.out.println(); // start the next line
         }
     }
