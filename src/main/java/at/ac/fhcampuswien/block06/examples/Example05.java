@@ -12,6 +12,7 @@ public class Example05 {
             numbers[i] = numbers[n - 1 - i]; // replace current element with corresponding element at the end
             numbers[n - 1 - i] = temp;  // replace element at the end with temp
         }
+
         return numbers;
     }
 

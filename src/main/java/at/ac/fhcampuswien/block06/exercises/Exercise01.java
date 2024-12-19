@@ -17,7 +17,9 @@ public class Exercise01 {
 
     public static void main(String[] args) {
         int[] enteredNumbers = getNumbersFromUser(5);
+
         System.out.print("Entered numbers:");
+
         for (int number : enteredNumbers) {
             System.out.print(" " + number);
         }

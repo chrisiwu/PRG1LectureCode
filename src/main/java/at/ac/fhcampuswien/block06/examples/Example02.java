@@ -13,6 +13,7 @@ public class Example02 {
         System.out.println("The array has " + numbers.length + " elements.");
 
         int index = 0;
+
         while (index < numbers.length) {
             System.out.println(numbers[index++]);
         }

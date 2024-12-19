@@ -19,6 +19,7 @@ public class TestPreparation {
 
         System.out.print("Enter lower bound: ");
         int lower = scanner.nextInt();
+
         System.out.print("Enter upper bound: ");
         int upper = scanner.nextInt();
 
@@ -90,6 +91,7 @@ public class TestPreparation {
 
         System.out.print("Rows: ");
         int rows = scanner.nextInt();
+
         System.out.print("Character: ");
         char character = scanner.next().charAt(0);
 
@@ -98,9 +100,11 @@ public class TestPreparation {
                 if (character > 'z') {
                     character = 'a';
                 }
+
                 for (int column = 0; column < rows; column++) {
                     System.out.print(character);
                 }
+
                 System.out.println();
                 character++;
             }
@@ -120,6 +124,7 @@ public class TestPreparation {
 
         System.out.print("Rows: ");
         int rows = scanner.nextInt();
+
         System.out.print("Character: ");
         char character = scanner.next().charAt(0);
 
@@ -128,9 +133,11 @@ public class TestPreparation {
                 if (character > 'z') {
                     character = 'a';
                 }
+
                 for (int column = row; column < rows; column++) {
                     System.out.print(character);
                 }
+
                 System.out.println();
                 character++;
             }
@@ -244,6 +251,7 @@ public class TestPreparation {
 
         System.out.print("Player 1: ");
         String player1 = scanner.nextLine();
+
         System.out.print("Player 2: ");
         String player2 = scanner.nextLine();
 
@@ -269,6 +277,7 @@ public class TestPreparation {
         for (int i = 0; i < 3; i++) {
             System.out.print("Player 1: ");
             String player1 = scanner.nextLine();
+
             System.out.print("Player 2: ");
             String player2 = scanner.nextLine();
 
