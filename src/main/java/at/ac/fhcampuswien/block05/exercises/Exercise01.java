@@ -13,6 +13,7 @@ public class Exercise01 {
 
         System.out.print("enter side a: ");
         int a = scanner.nextInt();
+
         System.out.print("enter side b: ");
         int b = scanner.nextInt();
 

@@ -19,6 +19,7 @@ public class Example01 {
         myMethod1("Hello!");
 
         int number = myMethod2(5);
+
         System.out.println("The new number is " + number + ".");
     }
 }

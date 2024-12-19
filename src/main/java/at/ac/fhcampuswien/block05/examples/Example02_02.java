@@ -14,8 +14,10 @@ public class Example02_02 {
         showErrorMsg("an error occurred"); // values passed to the method
 
         Scanner scanner = new Scanner(System.in);
+
         System.out.print("Enter a number between 0 and 10: ");
         int value = scanner.nextInt();
+
         if (value > 10 || value < 0) {
             showErrorMsg("number is smaller than 0 or bigger than 10"); // values passed to the method
         } else {
@@ -23,6 +25,7 @@ public class Example02_02 {
         }
 
         int i = 0;
+
         while (i++ < 3) {
             showErrorMsg("three errors"); // values passed to the method
         }

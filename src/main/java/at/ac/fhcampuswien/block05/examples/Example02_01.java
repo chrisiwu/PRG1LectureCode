@@ -12,8 +12,10 @@ public class Example02_01 {
         showErrorMsg(); // calling the method inside the same class
 
         Scanner scanner = new Scanner(System.in);
+
         System.out.print("Enter a number between 0 and 10: ");
         int value = scanner.nextInt();
+
         if (value > 10 || value < 0) {
             showErrorMsg(); // calling the method inside the same class
         } else {
@@ -21,6 +23,7 @@ public class Example02_01 {
         }
 
         int i = 0;
+
         while (i++ < 3) {
             showErrorMsg(); // calling the method inside the same class
         }
