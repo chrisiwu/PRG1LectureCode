@@ -52,6 +52,6 @@ public class Person {
          (eg.: Person@12jdh234) */
     @Override
     public String toString() {
-        return this.name + " (" + id + "), age: " + this.age + " years";
+        return this.name + " (" + this.id + "), age: " + this.age + " years";
     }
 }
