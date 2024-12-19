@@ -13,7 +13,7 @@ public class Example02 {
         fruits.add("Apple");
         fruits.add("Banana");
         fruits.add("Orange");
-        fruits.add("Apple"); // duplicates are ignored
+        System.out.println(fruits.add("Apple")); // duplicates are ignored
 
         System.out.println("Fruits set: " + fruits);
 

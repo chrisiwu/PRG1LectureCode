@@ -10,12 +10,12 @@ public class Member implements Comparable<Member> {
     }
 
     public int getHeight() {
-        return height;
+        return this.height;
     }
 
     @Override
     public String toString() {
-        return name + " (" + height + ")";
+        return this.name + " (" + this.height + ")";
     }
 
     /* The compareTo method is used to compare objects.
@@ -30,14 +30,14 @@ public class Member implements Comparable<Member> {
        Natural ordering */
     @Override
     public int compareTo(Member member) {
-        return this.height - member.getHeight();
+//        return this.height - member.getHeight();
 
-//        if (this.height == member.getHeight()) {
-//            return 0;
-//        } else if (this.height > member.getHeight()) {
-//            return 1;
-//        } else {
-//            return -1;
-//        }
+        if (this.height == member.getHeight()) {
+            return 0;
+        } else if (this.height > member.getHeight()) {
+            return 1;
+        } else {
+            return -1;
+        }
     }
 }

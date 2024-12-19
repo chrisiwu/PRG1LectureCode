@@ -1,6 +1,7 @@
 package at.ac.fhcampuswien.block13.examples.example03;
 
 import java.util.HashMap;
+import java.util.Map;
 
 public class Example03 {
     /* Map:
@@ -8,7 +9,7 @@ public class Example03 {
          - access via keys
          - no duplicate keys allowed! */
     public static void main(String[] args) {
-        HashMap<String, String> numbers = new HashMap<>();
+        Map<String, String> numbers = new HashMap<>();
         numbers.put("One", "Uno");
         numbers.put("Two", "Zwei");
         numbers.put("Two", "Dos"); // overwrites value of given key
