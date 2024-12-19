@@ -1,6 +1,6 @@
 package at.ac.fhcampuswien.block09.exercises.exercise01;
 
-public class Geraet extends Device{
+public class Geraet extends Device {
     private boolean an;
 
     public Geraet(String name) {
