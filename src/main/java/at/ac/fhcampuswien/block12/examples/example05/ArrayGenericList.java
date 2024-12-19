@@ -18,27 +18,27 @@ public class ArrayGenericList<E> implements GenericList<E> {
 
     @Override
     public boolean add(E element) {
-        if (size >= elements.length) {
+        if (this.size >= this.elements.length) {
             System.out.println("List is full! Cannot add element.");
             return false;
         }
 
-        elements[size++] = element; // add element and increment size
+        this.elements[this.size++] = element; // add element and increment size
 
         return true;
     }
 
     @Override
     public E get(int index) {
-        if (index < 0 || index >= size) {
-            throw new IndexOutOfBoundsException("Index: " + index + ", Size: " + size);
+        if (index < 0 || index >= this.size) {
+            throw new IndexOutOfBoundsException("Index: " + index + ", Size: " + this.size);
         }
 
-        return elements[index];
+        return this.elements[index];
     }
 
     @Override
     public String toString() {
-        return Arrays.toString(Arrays.copyOf(elements, size));
+        return Arrays.toString(Arrays.copyOf(this.elements, this.size));
     }
 }
