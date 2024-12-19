@@ -11,7 +11,9 @@ public class Example05 {
              examine the equality of the memory references. */
         System.out.println(ada1 == ada2); // false
         System.out.println(ada1.equals(ada2)); // false
+
         ada2 = ada1;
+
         System.out.println(ada1 == ada2); // true
         System.out.println(ada1.equals(ada2)); // true
 
