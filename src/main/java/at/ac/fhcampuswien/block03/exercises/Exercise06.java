@@ -2,24 +2,28 @@ package at.ac.fhcampuswien.block03.exercises;
 
 public class Exercise06 {
     public static void main(String[] args) {
-        int first = 10;
-        int second = 15;
-        int third = 5;
-        int min;
+        double x = 1, y = 2, z;
+        char operator = '*';
 
-        /* Three values are provided, stored in
-             the variables first, second and third.
-           Store the minimum value in the variable named min. */
-        if (first < second) {
-            min = first;
-        } else {
-            min = second;
+        switch (operator) {
+            case '+':
+                z = x + y;
+                System.out.println(z);
+                break;
+            case '-':
+                z = x - y;
+                System.out.println(z);
+                break;
+            case '*':
+                z = x * y;
+                System.out.println(z);
+                break;
+            case '/':
+                z = x / y;
+                System.out.println(z);
+                break;
+            default:
+                System.out.println("invalid operator passed!");
         }
-
-        if (third < min) {
-            min = third;
-        }
-
-        System.out.println(min);
     }
 }

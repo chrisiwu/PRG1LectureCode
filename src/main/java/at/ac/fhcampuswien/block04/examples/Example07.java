@@ -1,15 +1,25 @@
 package at.ac.fhcampuswien.block04.examples;
 
-public class Example07 {
-    public static void main(String[] args) {
-        int height = 5;
+import java.util.Scanner;
 
-        for (int i = 0; i <= height; i++) { // outer loop for line
-            for (int j = 0; j < i; j++) { // inner loop for stars in a line
-                System.out.print("*");
+public class Example07 {
+    /* When execution reaches the end of the loop,
+         executions jumps back to the beginning.
+       You can also return to the beginning from other
+         places inside the loop by using continue. */
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        while (true) {
+            System.out.print("Insert positive integers: ");
+            int number = scanner.nextInt();
+
+            if (number <= 0) {
+                System.out.println("Unfit number! Try again.");
+                continue;
             }
 
-            System.out.println(); // start the next line
+            System.out.println("Your input was " + number + ".");
         }
     }
 }

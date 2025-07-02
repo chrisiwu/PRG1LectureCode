@@ -2,30 +2,16 @@ package at.ac.fhcampuswien.block03.exercises;
 
 public class Exercise05 {
     public static void main(String[] args) {
-        int x = 10;
-        int y = 5;
-        int z;
+        double x = 5;
+        double y = 0;
+        double z;
 
-        /* three different approaches to calculate z
-             being the absolute value of the difference x-y */
-        if (x - y < 0) {
-            z = y - x;
+        // avoid a "division by zero" error
+        if (y == 0) {
+            System.out.println("Error: can't divide by zero");
         } else {
-            z = x - y;
+            z = x / y;
+            System.out.println("The result is " + z + ".");
         }
-        System.out.println(z);
-
-        if (x > y) {
-            z = x - y;
-        } else {
-            z = y - x;
-        }
-        System.out.println(z);
-
-        z = x - y;
-        if (z < 0) {
-            z = -z;
-        }
-        System.out.println(z);
     }
 }

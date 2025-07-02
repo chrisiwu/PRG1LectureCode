@@ -2,37 +2,24 @@ package at.ac.fhcampuswien.block03.exercises;
 
 public class Exercise04 {
     public static void main(String[] args) {
-        int x = 5;
+        int first = 10;
+        int second = 15;
+        int third = 5;
+        int min;
 
-        // choose between three alternatives
-        if (x < 0) {
-            System.out.println("negative");
+        /* Three values are provided, stored in
+             the variables first, second and third.
+           Store the minimum value in the variable named min. */
+        if (first < second) {
+            min = first;
         } else {
-            if (x == 0) {
-                System.out.println("zero");
-            } else {
-                System.out.println("positive");
-            }
+            min = second;
         }
 
-        if (x >= 0) {
-            if (x == 0) {
-                System.out.println("zero");
-            } else {
-                System.out.println("positive");
-            }
-        } else {
-            System.out.println("negative");
+        if (third < min) {
+            min = third;
         }
 
-        /* A more elegant version to formulate multiple
-             choices with nested if-statements. */
-        if (x < 0) {
-            System.out.println("negative");
-        } else if (x == 0) { // and x >= 0
-            System.out.println("zero");
-        } else { // x >= 0 and x != 0
-            System.out.println("positive");
-        }
+        System.out.println(min);
     }
 }

@@ -3,19 +3,26 @@ package at.ac.fhcampuswien.block04.examples;
 import java.util.Scanner;
 
 public class Example06 {
+    /* loops can be stopped using break
+       when executing the break command,
+         the program execution moves onto
+         the next command following the
+         loop block */
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
+        Scanner scan = new Scanner(System.in);
+        int sum = 0;
 
-        while (true) {
-            System.out.print("Insert positive integers: ");
-            int number = scanner.nextInt();
+        while (true) { // endless loop
+            System.out.print("Enter a number (enter 0 or negative value to exit): ");
+            int number = scan.nextInt();
 
             if (number <= 0) {
-                System.out.println("Unfit number! Try again.");
-                continue;
+                break;
+            } else {
+                sum = sum + number;
             }
-
-            System.out.println("Your input was " + number + ".");
         }
+
+        System.out.println("The sum is " + sum + ".");
     }
 }

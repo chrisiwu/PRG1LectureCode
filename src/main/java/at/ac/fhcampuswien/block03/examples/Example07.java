@@ -4,21 +4,25 @@ import java.util.Scanner;
 
 public class Example07 {
     public static void main(String[] args) {
-        /* strings cannot be compared using ==
-           comparison is affected by how much
-             information a variable can hold
-           strings can hold a limitless number of characters:
-             integers, floats etc. contain a single value only
-           == does only work for single values
-             (we will return to that later in this course)
-           compare strings using the equals method */
+        /* modulo operator is very handy when we want
+             to check the divisibility of a number */
+        int remainder = 7 % 2;
+        System.out.println(remainder); // prints 1
+        System.out.println(5 % 3); // prints 2
+        System.out.println(8 % 4); // prints 0
+        System.out.println(1 % 2); // prints 1
+
+        /* can be a part of an expression
+             in a conditional statement */
         Scanner reader = new Scanner(System.in);
 
-        System.out.print("Enter a string: ");
-        String input = reader.nextLine();
+        System.out.print("Enter a number: ");
+        int number = Integer.valueOf(reader.nextLine());
 
-        if (input.equals("a string")) {
-            System.out.println("Great! You read the instructions correctly.");
+        if (number % 400 == 0) {
+            System.out.println("The number " + number + " is divisible by four hundred.");
+        } else {
+            System.out.println("The number " + number + " is not divisible by four hundred.");
         }
     }
 }

@@ -3,11 +3,16 @@ package at.ac.fhcampuswien.block04.exercises;
 import java.util.Scanner;
 
 public class Exercise04 {
+    /* loops can be stopped using break
+       when executing the break command,
+         the program execution moves onto
+         the next command following the
+         loop block */
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         int sum = 0;
 
-        do {
+        while (true) { // endless loop
             System.out.print("Enter a number (enter 0 or negative value to exit): ");
             int number = scan.nextInt();
 
@@ -16,7 +21,7 @@ public class Exercise04 {
             } else {
                 sum = sum + number;
             }
-        } while (true); // endless loop
+        }
 
         System.out.println("The sum is " + sum + ".");
     }

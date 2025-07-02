@@ -14,7 +14,7 @@ public class Example02 {
 
         int index = 0;
 
-        while (index < numbers.length) {
+        while (index < numbers.length) { // stop loop at array length
             System.out.println(numbers[index++]);
         }
     }

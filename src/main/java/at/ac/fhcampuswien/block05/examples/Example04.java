@@ -9,15 +9,14 @@ public class Example04 {
      * @param x The first number for calculating the difference.
      * @param y The second number for calculating the difference.
      */
-    public static void printDiff(int x, int y) {
-        System.out.println("The difference is " + (x - y));
+    public static void printSum(int x, int y) {
+        System.out.println("The sum is " + (x + y) + ".");
     }
 
     public static void main(String[] args) {
         // when calling such a method,
         // the parameters are passed in the same order
-        printDiff(3, 4);
-        printDiff(10, 2);
-        printDiff(2, 10);
+        printSum(3, 4); // the sum is 7
+        printSum(10, 2); // the sum is 12
     }
 }
