@@ -11,7 +11,7 @@ public class Example02 {
         System.out.println(sportsCar); // I am a SportsCar, speed: 20
 
         Car taxi = new Taxi(5);
-        taxi.accelerate(); // calles Car.accelerate
+        taxi.accelerate(); // calls Car.accelerate
         System.out.println(taxi); // I am a Taxi, speed: 10
     }
 }

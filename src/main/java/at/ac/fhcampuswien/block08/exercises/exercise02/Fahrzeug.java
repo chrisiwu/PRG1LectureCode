@@ -6,8 +6,8 @@ public class Fahrzeug {
     private String name;
     private int maxGeschwindigkeit; // Höchstgeschwindigkeit
     private int gesamtZeit; // Gesamte Rennzeit in Sekunden
-    private boolean hatDefekt; // Gibt an, ob das Fahrzeug einen Defekt hat
-    private boolean hatteUnfall; // Gibt an, ob das Fahrzeug einen Unfall hatte
+    private boolean hatDefekt; // gibt an, ob das Fahrzeug einen Defekt hat
+    private boolean hatteUnfall; // gibt an, ob das Fahrzeug einen Unfall hatte
 
     public Fahrzeug(String name, int maxGeschwindigkeit) {
         this.name = name;
@@ -28,24 +28,24 @@ public class Fahrzeug {
     // Methode, um die Zeit für eine Runde zu berechnen (mit Zufallseinfluss und unerwarteten Ereignissen)
     public void rundeFahren(int streckenlaenge) {
         Random rand = new Random();
-        // Zufällige Geschwindigkeit zwischen 90% und 110% der Maximalgeschwindigkeit
+        // zufällige Geschwindigkeit zwischen 90% und 110% der Maximalgeschwindigkeit
         int aktuelleGeschwindigkeit = (int) (this.maxGeschwindigkeit * (0.9 + 0.2 * rand.nextDouble()));
 
-        // Unerwartetes Ereignis: Technischer Defekt (10% Wahrscheinlichkeit)
+        // unerwartetes Ereignis: technischer Defekt (10% Wahrscheinlichkeit)
         if (rand.nextInt(100) < 10) {
             this.hatDefekt = true;
             aktuelleGeschwindigkeit *= 0.7; // Geschwindigkeit sinkt um 30% bei Defekt
             System.out.println(this.name + " hat einen technischen Defekt! Geschwindigkeit reduziert.");
         }
 
-        // Unerwartetes Ereignis: Unfall (5% Wahrscheinlichkeit)
+        // unerwartetes Ereignis: Unfall (5% Wahrscheinlichkeit)
         if (rand.nextInt(100) < 5) {
             this.hatteUnfall = true;
             this.gesamtZeit += 5; // 5 Minuten Verzögerung durch Unfall
             System.out.println(this.name + " hatte einen Unfall! Verzögerung von 5 Minuten.");
         }
 
-        // Unerwartetes Ereignis: Wetterbedingungen (Regen) (15% Wahrscheinlichkeit)
+        // unerwartetes Ereignis: Wetterbedingungen (Regen) (15% Wahrscheinlichkeit)
         if (rand.nextInt(100) < 15) {
             aktuelleGeschwindigkeit *= 0.8; // Geschwindigkeit sinkt um 20% bei Regen
             System.out.println(this.name + " fährt im Regen! Geschwindigkeit reduziert.");

@@ -40,7 +40,7 @@ public class Raum {
         System.out.println("Die Temperatur im " + this.name + " wurde auf " + temperatur + "°C eingestellt.");
     }
 
-    // Alle Geräte und Temperatur anzeigen
+    // alle Geräte und Temperatur anzeigen
     public void raumStatusAnzeigen() {
         System.out.println("Raum: " + this.name);
         this.temperaturRegler.temperaturAnzeigen();

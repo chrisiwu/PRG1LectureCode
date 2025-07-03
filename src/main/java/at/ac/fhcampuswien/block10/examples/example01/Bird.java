@@ -4,7 +4,7 @@ package at.ac.fhcampuswien.block10.examples.example01;
 public class Bird implements AnimalBehaviour {
     @Override
     public void eat() {
-        System.out.println("eating worms.");
+        System.out.println("eating worms");
     }
 
     @Override

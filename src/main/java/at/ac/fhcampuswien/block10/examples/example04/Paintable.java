@@ -1,4 +1,4 @@
-package at.ac.fhcampuswien.block10.examples.example03;
+package at.ac.fhcampuswien.block10.examples.example04;
 
 public interface Paintable {
     void fill();

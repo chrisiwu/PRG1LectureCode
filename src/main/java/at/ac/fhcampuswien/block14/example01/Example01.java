@@ -5,8 +5,9 @@ import java.io.IOException;
 
 public class Example01 {
     public static void createHelloWorldFile1() {
+        FileWriter writer = null;
         try {
-            FileWriter writer = new FileWriter("/home/user/test.txt");
+            writer = new FileWriter("/home/user/test.txt");
             writer.write("Hello World!");
             writer.close();
         } catch (IOException e) {

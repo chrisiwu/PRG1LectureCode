@@ -53,7 +53,7 @@ public class Robot {
     // Methode 6
     @Override
     public String toString() {
-        return "Robot(name: " + this.name + ", serialNumber: " + this.serialNumber + ", energyLevel: " + this.energyLevel + ")";
+        return "Robot (name: " + this.name + ", serialNumber: " + this.serialNumber + ", energyLevel: " + this.energyLevel + ")";
     }
 
     // Methode 7

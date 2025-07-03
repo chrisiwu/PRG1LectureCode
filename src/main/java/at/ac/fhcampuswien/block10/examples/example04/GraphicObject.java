@@ -1,4 +1,4 @@
-package at.ac.fhcampuswien.block10.examples.example03;
+package at.ac.fhcampuswien.block10.examples.example04;
 
 /* abstract classes are similar to interfaces,
      you cannot instantiate them

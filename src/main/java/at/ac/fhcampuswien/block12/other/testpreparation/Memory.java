@@ -21,7 +21,7 @@ public class Memory {
 
     public boolean checkCoordinates(int row, int col) {
         if (row >= this.gameBoard.length || col >= this.gameBoard[0].length) {
-            System.out.println("Invalid index. Try again");
+            System.out.println("Invalid index. Try again.");
             return false;
         } else if (!revealCard(row, col)) {
             System.out.println("Card already revealed. Try again.");
