@@ -7,7 +7,9 @@ public class Example06 {
 
         printNumbers(min, max);
 
+        System.out.println();
         System.out.println(min);
+        System.out.println();
 
         max = 8;
 
