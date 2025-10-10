@@ -12,7 +12,6 @@ public class Example10 {
         Scanner scanner = new Scanner(System.in);
 
         while (true) {
-
             System.out.print("Insert positive integers: ");
             int number = scanner.nextInt();
 
@@ -20,6 +19,7 @@ public class Example10 {
                 System.out.println("Unfit number! Try again.");
                 continue;
             }
+
             System.out.println("Your input was " + number + ".");
         }
     }
