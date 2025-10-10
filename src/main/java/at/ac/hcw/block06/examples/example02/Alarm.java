@@ -7,6 +7,7 @@ public class Alarm {
 
     // things the object does
     public void setAlarmTime() {
+
     }
 
     public String getAlarmTime() {
@@ -18,5 +19,6 @@ public class Alarm {
     }
 
     public void snooze() {
+
     }
 }

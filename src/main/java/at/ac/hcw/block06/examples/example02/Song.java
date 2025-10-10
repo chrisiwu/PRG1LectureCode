@@ -22,14 +22,18 @@ public class Song {
          that read or write the values of
          instance variables */
     public void setTitle() {
+
     }
 
     public void setArtist() {
+
     }
 
     public void play() {
+
     }
 
     public void pause() {
+
     }
 }

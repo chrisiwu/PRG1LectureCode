@@ -3,7 +3,7 @@ package at.ac.hcw.block06.examples.example03;
 /* To create an object, we will use two classes.
    One class for the type of object we define
      (Cat, AlarmClock etc.) and another class to
-      "test" that new class.
+     "test" that new class.
    We will put the main method in the "testing" class
      -> from which we will create and access
      objects of our class. */
