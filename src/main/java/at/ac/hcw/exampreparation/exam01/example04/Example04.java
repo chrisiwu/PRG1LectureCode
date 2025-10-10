@@ -48,13 +48,13 @@ public class Example04 {
 
     public static int determineWinner(int player, int computer) {
         if (player == computer) {
-            return 0; // unentschieden
+            return 0; // draw
         } else if ((player == 0 && computer == 2) ||
                 (player == 1 && computer == 0) ||
                 (player == 2 && computer == 1)) {
-            return 1; // Spieler gewinnt
+            return 1; // player wins
         }
 
-        return -1; // Computer gewinnt
+        return -1; // computer wins
     }
 }
