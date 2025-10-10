@@ -38,6 +38,6 @@ public class Example03 {
 
         /* calling a method on an object that refers
              to nothing throws a NullPointerException */
-        c.fight(a);
+//        c.fight(a);
     }
 }

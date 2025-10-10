@@ -36,6 +36,30 @@ public class Person implements Cloneable {
     }
 
     @Override
+    public boolean equals(Object compared) {
+        if (this == compared) { // if the variables are located in the same position, they are equal
+            return true;
+        }
+
+        if (!(compared instanceof Person)) { // if the type of the compared object is not Person, the objects are not equal
+            return false;
+        }
+
+        // convert the Object type compared object into Person object
+        Person comparedPerson = (Person) compared;
+
+        // if the values of the object variables are the same, the objects are equal
+        if (this.name.equals(comparedPerson.name) &&
+                this.birthday.getDay() == comparedPerson.birthday.getDay() &&
+                this.birthday.getMonth() == comparedPerson.birthday.getMonth() &&
+                this.birthday.getYear() == comparedPerson.birthday.getYear()) {
+            return true;
+        }
+
+        return false;
+    }
+
+    @Override
     protected Object clone() throws CloneNotSupportedException {
         return super.clone();
     }

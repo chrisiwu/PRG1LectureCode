@@ -12,15 +12,15 @@ public class SimpleDate {
     }
 
     public int getDay() {
-        return day;
+        return this.day;
     }
 
     public int getMonth() {
-        return month;
+        return this.month;
     }
 
     public int getYear() {
-        return year;
+        return this.year;
     }
 
     public void setDay(int day) {

@@ -13,9 +13,9 @@ public class Song {
         player.playSound(this.title);
     }
 
-//    /* keyword static lets a method run without any instance of the class
-//       static methods cannot use non-static (instance) variables!
-//       static methods cannot use non-static methods either! */
+    /* keyword static lets a method run without any instance of the class
+       static methods cannot use non-static (instance) variables!
+       static methods cannot use non-static methods either! */
 //    public static void main(String[] args) {
 //        // this cannot be referenced from a static context
 //        System.out.println("Title of this song is: " + this.title); // compiler error
