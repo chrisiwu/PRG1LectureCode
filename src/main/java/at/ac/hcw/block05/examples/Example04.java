@@ -22,6 +22,8 @@ public class Example04 {
 
         System.out.println(Arrays.toString(reveresed));
         System.out.println(Arrays.toString(myNumbers));
+
+        // same hash values
         System.out.println(reveresed);
         System.out.println(myNumbers);
     }

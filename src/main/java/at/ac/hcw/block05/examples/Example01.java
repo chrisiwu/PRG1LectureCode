@@ -32,6 +32,8 @@ public class Example01 {
 
         /* process all array elements:
              size of an array with associated property length */
+        System.out.println("The array has " + numbers.length + " elements.");
+
         for (int i = 0; i < numbers.length; i++) {
             System.out.println(numbers[i]);
         }
@@ -39,6 +41,6 @@ public class Example01 {
         /* if the index is pointing outside the array
              (element does not exist) we get an
              ArrayIndexOutOfBoundsException */
-        //System.out.println(numbers[4]); // ArrayIndexOutOfBoundsException: index 4 out of bounds for length 3
+//        System.out.println(numbers[4]); // ArrayIndexOutOfBoundsException: index 4 out of bounds for length 3
     }
 }

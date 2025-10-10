@@ -21,8 +21,9 @@ public class Example05 {
            the inner loop iterates through elements in a row */
         for (int i = 0; i < matrix.length; i++) { // outer loop for rows
             for (int j = 0; j < matrix[i].length; j++) { // inner loop for columns
-                System.out.print(matrix[i][j] + " ");
+                System.out.print(matrix[i][j] + " "); // access individual elements
             }
+
             System.out.println(); // move to the next line after printing a row
         }
     }
