@@ -57,7 +57,7 @@ public class Example01 {
         int numberFromText = Integer.parseInt(text); // works fine
 
         String str = "Hello World";
-        //int numberFromText2 = Integer.parseInt(str); // NumberFormatException: For input string: "Hello World"
+//        int numberFromText2 = Integer.parseInt(str); // NumberFormatException: For input string: "Hello World"
 
         byte byteNumber = 24;
         int intFromByte = byteNumber; // works fine
@@ -65,7 +65,7 @@ public class Example01 {
         /* declaration of constants:
            A constant is a variable that’s value never changes.
            Using constants improves readability,
-             because they provide recognizable names for fixed values
+             because they provide recognizable names for fixed values.
            - syntax: final datatype name = value;
            - datatype: every data type that
                exists in Java or in the program

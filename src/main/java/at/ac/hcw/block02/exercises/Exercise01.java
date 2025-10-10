@@ -31,12 +31,8 @@ public class Exercise01 {
         circumference = 2 * PI * radius;
 
         // 5. report radius, area & circumference
-        System.out.print("The area of a circle of radius ");
-        System.out.print(radius);
-        System.out.print(" is ");
-        System.out.println(area);
-        System.out.print("and its circumference is ");
-        System.out.print(circumference + ".");
+        System.out.println("The area of a circle of radius " + radius + " is " + area);
+        System.out.println("and its circumference is " + circumference + '.');
         System.out.println();
     }
 }

@@ -5,6 +5,8 @@ import java.util.Scanner;
 public class Example12 {
     public static void main(String[] args) {
         Scanner reader = new Scanner(System.in);
+
+        System.out.print("Enter a number: ");
         int number = Integer.valueOf(reader.nextLine());
 
         if (number % 400 == 0) {
