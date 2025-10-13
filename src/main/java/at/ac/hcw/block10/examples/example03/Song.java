@@ -15,15 +15,15 @@ public class Song implements Comparable<Song> {
     }
 
     public String getTitle() {
-        return title;
+        return this.title;
     }
 
     public String getArtist() {
-        return artist;
+        return this.artist;
     }
 
     public int getBpm() {
-        return bpm;
+        return this.bpm;
     }
 
     /* we override toString(), because we want

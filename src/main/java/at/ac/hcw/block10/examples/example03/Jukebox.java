@@ -9,7 +9,7 @@ public class Jukebox {
     }
 
     public void go() {
-        List<Song> songList = MockSongs.getSongStrings();
+        List<Song> songList = MockSongs.getSongs();
 
         System.out.println(songList);
 
