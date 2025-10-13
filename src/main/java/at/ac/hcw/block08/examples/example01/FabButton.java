@@ -27,10 +27,10 @@ public class FabButton extends Button {
     }
 
     /* let's say FabButton had a completely
-             different click and playSound behavior:
-           FabButton can override the methods of Button
-           overriding means that a subclass redefines
-             one of it's inherited methods */
+         different click and playSound behavior:
+       FabButton can override the methods of Button
+       overriding means that a subclass redefines
+         one of it's inherited methods */
     @Override
     public void click() {
         System.out.println("Fab-Button clicked.");

@@ -15,4 +15,5 @@ package at.ac.hcw.block08.examples.example01;
    a class can inherit properties and
      functionality from another class */
 public class RaisedButton extends Button {
+
 }

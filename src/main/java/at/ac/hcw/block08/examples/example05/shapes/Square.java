@@ -34,7 +34,7 @@ public class Square extends Rectangle {
        ignores the h parameter or forces w = h
        breaks expected behavior
        client expecting a Rectangle with different w and h
-       now gets a square with both sides equal */
+         now gets a square with both sides equal */
 //    @Override
 //    public void setSize(int width, int height) {
 //        this.width = width;
