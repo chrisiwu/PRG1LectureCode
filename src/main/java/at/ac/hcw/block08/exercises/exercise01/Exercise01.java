@@ -15,7 +15,7 @@ public class Exercise01 {
         System.out.println(elf);
         System.out.println(dwarf);
 
-        System.out.println("\n--- Battle Begins! ---\n");
+        System.out.println("\n--- Battle Begins! ---");
 
         orc.fight(elf); // orc attacks elf
         elf.jump(); // elf jumps
